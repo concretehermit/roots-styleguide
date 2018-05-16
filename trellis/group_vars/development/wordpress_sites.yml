@@ -17,3 +17,13 @@ wordpress_sites:
       provider: self-signed
     cache:
       enabled: false
+  styleguide.roots-styleguide.com:
+    site_hosts:
+      - canonical: styleguide.roots-styleguide.test
+    local_path: ../site/web/styleguide-engine
+    site_install: false
+    nginx_wordpress_site_conf: nginx-includes/styleguide.roots-styleguide.com.conf.child
+    ssl:
+      enabled: false
+    multisite:
+      enabled: false
