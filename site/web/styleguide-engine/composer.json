@@ -2,5 +2,10 @@
     "name": "concretehermit/roots-styleguide",
     "type": "project",
     "license": "MIT",
-    "require": {}
+    "require": {
+        "slim/slim": "^3.8",
+        "illuminate/view": "~5.1.0",
+        "illuminate/events": "~5.1.0",
+        "illuminate/filesystem": "~5.1.0"
+    }
 }
